@@ -2,7 +2,7 @@
   "name": "js-async-queue",
   "version": "1.0.3",
   "description": "JS class to handle an asyncronous queue with concuttent tasks",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "babel --presets es2015 --watch ./index.js --out-file lib/index.js | nodemon lib/index.js"
   },
