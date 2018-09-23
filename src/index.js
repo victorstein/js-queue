@@ -3,7 +3,7 @@ import EventEmitter from 'events'
 class DoneEmitter extends EventEmitter {}
 const DoneEventEmitter = new DoneEmitter();
 
-export default class queue {
+export default class Queue {
 
   constructor(tasks, concurrency, compute){
     this.tasks = (tasks.length) ? tasks : [''];
@@ -31,7 +31,6 @@ export default class queue {
 
   compute(task){
 	  return new Promise(async (res, rej) =>{
-      console.log('ran compute')
       try {
         let res = await this.compute(task);
         res(res)
@@ -42,7 +41,6 @@ export default class queue {
   }
 
   async work(task){
-    console.log('asigned to queue: ' + task)
     try{
       this.workers.push('working');
       let res = await this.compute(task);
