@@ -4,7 +4,7 @@
   "description": "JS class to handle an asyncronous queue with concuttent tasks",
   "main": "dist/index.js",
   "scripts": {
-    "start": "babel --presets es2015 --watch ./index.js --out-file dist/index.js | nodemon dist/index.js"
+    "start": "babel --presets es2015 --watch ./index.js --out-file lib/index.js | nodemon lib/index.js"
   },
   "keywords": [
     "queue",

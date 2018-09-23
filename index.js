@@ -1,5 +1,4 @@
 import EventEmitter from 'events'
-import fetch from 'fetch-timer'
 
 class DoneEmitter extends EventEmitter {}
 const DoneEventEmitter = new DoneEmitter();
