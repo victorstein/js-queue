@@ -1,6 +1,6 @@
 {
   "name": "js-async-queue",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "JS class to handle an asyncronous queue with concuttent tasks",
   "main": "dist/index.js",
   "scripts": {
@@ -13,8 +13,8 @@
     "async"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/victorstein/js-queue"
+    "type": "git",
+    "url": "https://github.com/victorstein/js-queue"
   },
   "author": "Alfonso Gomez",
   "license": "ISC",
