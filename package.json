@@ -1,6 +1,6 @@
 {
   "name": "js-async-queue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JS class to handle an asyncronous queue with concuttent tasks",
   "main": "dist/index.js",
   "scripts": {
