@@ -4,7 +4,7 @@ This is a helper class that resolves a queue with a concurrency limit ( I.e. lim
 
 # Installation
 
-``` npm install js-queue ```
+``` npm install js-async-queue ```
 
 # Usage
 
