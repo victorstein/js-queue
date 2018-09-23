@@ -3,7 +3,7 @@ import EventEmitter from 'events'
 class DoneEmitter extends EventEmitter {}
 const DoneEventEmitter = new DoneEmitter();
 
-export default class Queue {
+class Queue {
 
   constructor(tasks, concurrency, compute){
     this.tasks = (tasks.length) ? tasks : [''];
@@ -78,3 +78,5 @@ export default class Queue {
   }
 
 }
+
+module.exports = Queue

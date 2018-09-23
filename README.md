@@ -16,7 +16,7 @@ The class requires 3 parameters:
 ```
 
 import queue from 'js-async-queue'
-//const queue = require('js-async-queue').default
+//const queue = require('js-async-queue')
 
 //This function will be ran with each element in the queue
 
@@ -26,7 +26,7 @@ let mockFunction = (task) =>{
     try{
       let response = await fetch('http://5ba71c7868c16e0014c4eea2.mockapi.io/test/' + task);
       response = await response.json()
-      res(response)
+      resolve(response)
     } catch(e) {
       console.log(e)
       reject(e)
