@@ -81,20 +81,3 @@ export default class queue {
   }
 
 }
-/*
-let mockFunction = (task) =>{
-  return new Promise(async res => {
-    try{
-      let ress = await fetch('http://5ba71c7868c16e0014c4eea2.mockapi.io/test/' + task, { timeout: 10000 });
-      ress = await ress.json()
-      res(ress)
-    } catch(e) {
-      console.log(e)
-    }
-  });
-}
-
-let some = new queue(['Ingredients', 'tasks', 'things', 'persons', 'art'], 2, mockFunction);
-
-some.start().then((res)=> console.log(res));
-*/

@@ -2,18 +2,21 @@
   "name": "async-queue-js",
   "version": "1.0.0",
   "description": "JS class to handle an asyncronous queue with concuttent tasks",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "babel --presets es2015 --watch ./index.js --out-file dist/index.js | nodemon dist/index.js"
   },
+  "keywords": [
+    "queue",
+    "javascript",
+    "puppeteer",
+    "async"
+  ],
   "author": "Alfonso Gomez",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "nodemon": "^1.18.4"
-  },
-  "dependencies": {
-    "fetch-timer": "^1.0.8"
   }
 }

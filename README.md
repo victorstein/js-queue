@@ -14,6 +14,10 @@ The class requires 3 parameters:
 -Function to be computed ( Promise )
 
 ```
+
+import queue from 'async-queue-js'
+//const queue = require('async-queue-js')
+
 //This function will be ran with each element in the queue
 
 let mockFunction = (task) =>{
