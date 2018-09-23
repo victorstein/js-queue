@@ -15,8 +15,8 @@ The class requires 3 parameters:
 
 ```
 
-import queue from 'async-queue-js'
-//const queue = require('async-queue-js')
+import queue from 'js-async-queue'
+//const queue = require('js-async-queue')
 
 //This function will be ran with each element in the queue
 
