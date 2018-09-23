@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "babel --presets es2015 --watch src/index.js --out-file lib/index.js | nodemon lib/index.js",
-    "build": "babel --presets es2015 src/index.js --out-file lib/index.js",
+    "build": "babel --presets es2015 src/index.js --out-file lib/index.js"
   },
   "keywords": [
     "queue",
